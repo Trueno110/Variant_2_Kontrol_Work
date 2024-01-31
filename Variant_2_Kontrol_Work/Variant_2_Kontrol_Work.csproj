@@ -55,14 +55,26 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Objects.xaml.cs">
+      <DependentUpon>Objects.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Report.xaml.cs">
       <DependentUpon>Report.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Stats.xaml.cs">
+      <DependentUpon>Stats.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StudDis.xaml.cs">
+      <DependentUpon>StudDis.xaml</DependentUpon>
     </Compile>
     <Compile Include="Student.xaml.cs">
       <DependentUpon>Student.xaml</DependentUpon>
     </Compile>
     <Compile Include="Teachers.xaml.cs">
       <DependentUpon>Teachers.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Uchetka.xaml.cs">
+      <DependentUpon>Uchetka.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -80,7 +92,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Objects.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Report.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Stats.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StudDis.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -89,6 +113,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Teachers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Uchetka.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -133,6 +161,24 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="52753bd854aeda5be2e277aa5ad2f302.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="c62590c1756680060e7c38011cd704b5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Снимок экрана %2877%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="1-09%282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="2900365267_preview_4m1bVLVZ_amp_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="mrRzECP4hj4.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

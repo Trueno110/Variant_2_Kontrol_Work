@@ -6,12 +6,21 @@
         xmlns:local="clr-namespace:Variant_2_Kontrol_Work"
         mc:Ignorable="d"
         Title="Report" Height="450" Width="800">
-    <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="31,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="253"><Run Language="ru-ru" FontSize="25" FontWeight="Black" Text="Отзыв по занятию:" Foreground="Black"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="36,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106"><Run Foreground="Black" FontSize="15" Language="ru-ru" Text="Дата занятия:"/></TextBlock>
-        <TextBox HorizontalAlignment="Left" Margin="32,117,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" Width="120" Text="22.06.23" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="31,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116"><Run Foreground="Black" FontSize="15" Language="ru-ru" Text="Преподователь:"/></TextBlock>
-        <TextBox HorizontalAlignment="Left" Margin="32,182,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" Width="120" Text="Григорович С.П." TextAlignment="Center"/>
+    <Grid Background="Black">
+        <TextBlock HorizontalAlignment="Left" Margin="31,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="253"><Run Language="ru-ru" FontSize="25" FontWeight="Black" Text="Отзыв по занятию:" Foreground="White"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="35,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147"><Run Foreground="White" FontSize="20" Language="ru-ru" Text="Дата занятия:"/></TextBlock>
+        <TextBox BorderBrush="Black" HorizontalAlignment="Left" Margin="31,81,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" Width="120" FontSize="20" Text="22.06.23" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="30,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="152"><Run Foreground="White" FontSize="20" Language="ru-ru" Text="Преподователь:"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="28,137,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" Width="169" FontSize="20" Text="Григорович С.П." TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="32,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"><Run Foreground="White" FontSize="20" Language="ru-ru" Text="Учебная группа:"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="28,193,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" Width="120" FontSize="20" Text="ДИ-11" TextAlignment="Center"/>
+        <Image Margin="306,19,10,10" Source="/52753bd854aeda5be2e277aa5ad2f302.jpg" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="30,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"><Run Foreground="White" FontSize="20" Language="ru-ru" Text="Тема:"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="30,260,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" Width="148" FontSize="20" Text="Изучение пива" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="30,289,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"><Run Foreground="White" FontSize="20" Language="ru-ru" Text="Вид занятия:"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="30,321,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" Width="120" FontSize="20" Text="Практика" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="30,351,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"><Run Foreground="White" FontSize="20" Language="ru-ru" Text="Отзыв:"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="30,383,0,0" TextWrapping="Wrap" Background="White" Foreground="Black" VerticalAlignment="Top" Width="120" FontSize="20" Text="Круто!" TextAlignment="Center"/>
 
 
 

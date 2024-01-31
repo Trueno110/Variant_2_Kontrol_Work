@@ -1,0 +1,14 @@
+﻿<Window x:Class="Variant_2_Kontrol_Work.StudDis"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Variant_2_Kontrol_Work"
+        mc:Ignorable="d"
+        Title="StudDis" Height="450" Width="800">
+    <Grid >
+        <Image Source="/2900365267_preview_4m1bVLVZ_amp_big.jpg" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="738"><Run FontSize="30" Foreground="White" Language="ru-ru" Text="Список студетов по Дисциплине: Стройка в Valheim"/></TextBlock>
+        <Image Margin="460,87,31,87" Source="/mrRzECP4hj4.jpg" Stretch="Fill"/>
+    </Grid>
+</Window>

@@ -26,17 +26,21 @@ namespace Variant_2_Kontrol_Work
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-
+            StudDis stud = new StudDis();
+            stud.Show();
+            this.Close();
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-
+            StudDis stud = new StudDis();
+            stud.Show();
+            this.Close();
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-
+            this.Close();
         }
 
         private void Button_Click_7(object sender, RoutedEventArgs e)

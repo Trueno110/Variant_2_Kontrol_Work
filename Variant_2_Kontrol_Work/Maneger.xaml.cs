@@ -26,17 +26,23 @@ namespace Variant_2_Kontrol_Work
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-
+            Uchetka uchetka = new Uchetka();
+            uchetka.Show();
+            this.Close();
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-
+            Stats stats = new Stats();
+            stats.Show();
+            this.Close();
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-
+            Objects obj = new Objects();
+            obj.Show();
+            this.Close();
         }
 
         private void Button_Click_7(object sender, RoutedEventArgs e)
